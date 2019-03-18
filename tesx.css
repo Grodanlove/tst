@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn { 
+     width:105%;
+     height:40px;
+     margin-bottom: 0;
+      font-size: 13px;
+     line-height: 18px; 
+     color: black; 
+     text-align: center; 
+     border: 1px solid whitesmoke;
+     }
+
+
+body { 
+	width: 100%;
+	height:100%;
+    font-family: 'Open Sans', sans-serif;
+	background-color:lightseagreen;    
+	background-image: url("foodbackground.jpg");
+	background-size: cover;
+
+}
+.login { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:400px;
+	height:00px;
+}
+.login h1 { color: white; text-align:center; }
+
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px  rgba(255,255,255,0.2);
+}
